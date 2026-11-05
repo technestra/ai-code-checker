@@ -76,6 +76,19 @@ cd ai-code-checker
 
 Copy `skills/ai-code-checker/` into `~/.claude/skills/` and the two files in `agents/` into `~/.claude/agents/`.
 
+### Claude Desktop
+
+The **Code** tab of the Claude desktop app is Claude Code, so this works there too. Install with method 2 or 3, then open a **new** Code session and:
+
+- type `/ai-code-checker` (or type `/` and pick it from the list)
+- mention an agent with `@`, for example `@agent-ai-code-checker review the changes against main`
+
+Notes:
+
+- It needs `git` on your `PATH`. On Windows, Desktop does not read PowerShell profiles, so set `PATH` in your user environment variables and restart Desktop. If PowerShell blocks the script, run `powershell -ExecutionPolicy Bypass -File .\install.ps1`.
+- The Code tab also has a plugin browser (**+** next to the prompt box, then **Add plugins**). Whether it can add a GitHub marketplace depends on your app version; if it cannot, use the install script. Plugins are not available in WSL sessions.
+- The **Chat** and **Cowork** tabs do not read `~/.claude`: their skills come from your claude.ai account, and subagents are a Claude Code feature. This tool is for the Code tab, the CLI and the IDE extensions.
+
 ## Use it
 
 ```
