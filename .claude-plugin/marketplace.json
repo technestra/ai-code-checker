@@ -1,0 +1,14 @@
+{
+  "name": "ai-code-checker",
+  "owner": {
+    "name": "Wheatron Technologies"
+  },
+  "description": "AI Code Checker: pre-push review skill and agents for Claude Code.",
+  "plugins": [
+    {
+      "name": "ai-code-checker",
+      "source": "./",
+      "description": "Reviews AI-generated code before push for duplicate code, dead code, bugs, security issues and missing tests."
+    }
+  ]
+}

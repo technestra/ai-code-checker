@@ -1,0 +1,13 @@
+{
+  "name": "ai-code-checker",
+  "displayName": "AI Code Checker",
+  "version": "1.0.0",
+  "description": "Reviews AI-generated code before you push: duplicate code, dead code, bugs, security issues and missing tests, with a PASS / NEEDS_CHANGES verdict. Includes a read-only reviewer agent and an opt-in fixer agent.",
+  "author": {
+    "name": "Wheatron Technologies"
+  },
+  "homepage": "https://github.com/technestra/ai-code-checker",
+  "repository": "https://github.com/technestra/ai-code-checker",
+  "license": "MIT",
+  "keywords": ["code-review", "duplicate-code", "security", "pre-push", "ai-generated-code"]
+}
